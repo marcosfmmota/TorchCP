@@ -65,7 +65,7 @@ build the basic framework of TorchCP based on [`AdverTorch`](https://github.com/
 codebase is still under construction and maintained by [`Hongxin Wei`](https://hongxin001.github.io/)'s research group
 at SUSTech. Comments, issues, contributions, and collaborations are all welcomed!
 
-## Updates of New Version (1.2.0)
+## Updates of New Version (1.2.x)
 
 This release enhances functionality by introducing p-value computation, conformal predictive distributions, and expanding the NORABS score function with additional difficulty estimation methods.
 Detailed changelog can be found in the [Documentation](https://torchcp.readthedocs.io/en/latest/CHANGELOG.html).
@@ -139,31 +139,11 @@ TorchCP is still under active development. We will add the following features/it
 
 ## Installation
 
-TorchCP is developed with Python 3.9 and PyTorch 2.0.1. To install TorchCP, simply run
-
+TorchCP is developed with Python 3.10 and fully compatible with the latest versions of PyTorch. Users should install PyTorch before proceeding with the TorchCP installation (please refer to the [official PyTorch installation guide](https://pytorch.org/get-started/previous-versions/)). Once PyTorch is set up, you can install TorchCP with the command
 ```
 pip install torchcp
 ```
 
-To install from TestPyPI server, run
-
-```
-pip install --index-url https://test.pypi.org/simple/ --no-deps torchcp
-```
-
-If you encounter errors while installing Torchsort, you can try the following steps to resolve them:
-```
-git clone https://github.com/teddykoker/torchsort.git
-cd torchsort
-pip install .
-```
-
-If you encounter errors while installing Torchsort, you can try the following steps to resolve them:
-```
-git clone https://github.com/teddykoker/torchsort.git
-cd torchsort
-pip install .
-```
 
 ## Unit Test
 
